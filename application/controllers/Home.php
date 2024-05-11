@@ -15,4 +15,9 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('blogpage');
 	}
+
+	public function login()
+	{
+		$this->load->view('login');
+	}
 }
